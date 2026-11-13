@@ -1,8 +1,29 @@
+# general
+node_modules
+.DS_Store
+.vscode
+.idea
+.eslintcache
+eslint/_logs
+/package-lock.json
+
+# docs
 *.md.orig.*
 *.md.toc.*
 gh-md-toc
-.DS_Store
-.vscode
-node_modules
-
 .vercel
+*.swp
+*.d.ts
+
+# components
+components/*/dist/
+components/**/package-lock.json
+
+# packages
+/packages/evals/
+/packages/sdk/examples/.next/
+
+# agentic coding
+.cursor
+**/.claude/settings.local.json
+mcp-exploration/
